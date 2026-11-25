@@ -1,0 +1,17 @@
+﻿{
+  "Name": "INPUT Payment Type",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "bMG2fjxfDUqmch9GPUjvng",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/bMG2fjxfDUqmch9GPUjvng",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:57:17.133187Z",
+  "Updated": "2026-11-17T07:57:50.0918653Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

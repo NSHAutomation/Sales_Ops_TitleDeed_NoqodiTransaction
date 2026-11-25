@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Add Buyer Details",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "r43D8IAYVE2PzQb88vcVTg",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/r43D8IAYVE2PzQb88vcVTg",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T10:32:37.1067675Z",
+  "Updated": "2026-11-19T07:53:03.6736711Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

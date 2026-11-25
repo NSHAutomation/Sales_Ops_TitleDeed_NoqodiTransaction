@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Next-Payment Plan",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "t7cm3TMlikO7RG5hjrCI4Q",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/t7cm3TMlikO7RG5hjrCI4Q",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:52:08.8554043Z",
+  "Updated": "2026-11-17T07:52:45.9825311Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

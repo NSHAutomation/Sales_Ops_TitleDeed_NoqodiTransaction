@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OXx_Z-b2HEC01f311-LJpg" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/6MmSPxSqa0yNH8VpT9wAyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/22666" DesignTimeRectangle="1749, 466, 67, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' class='flex flex-col items-start bg-card border border-border-light rounded-xl overflow-hidden' visibleinnertext='Seller Fee Voucher*' /&gt;&lt;webctrl tag='P' aaname='*' /&gt;" Guid="fe23bc55-d184-48bf-8e40-d221047d5156" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="942539e098759250b54076940c5b0b11.jpg" xmlns="">08kwrN4r0IEKg-rYZkocqZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

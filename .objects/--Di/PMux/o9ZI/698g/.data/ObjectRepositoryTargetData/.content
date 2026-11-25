@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GcxWGRn3WUmiPkDyLngXlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/22401" DesignTimeRectangle="1754, 351, 47, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='Browse' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='SPAN' check:innerText='Browse' /&gt;" Guid="06ba0f1e-8bac-4d35-a3e5-e3b11032e023" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1481, 274, 400, 24" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='P' aaname='Emirates ID' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Emirates ID' /&gt;" Guid="9c6c7aea-4a76-4c77-8011-d809634f9474" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e2c6ebdfbe8804a18aa31073daf46cc6.jpg" xmlns="">0MDtUFRfKgUWZYcCxtf2vtw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

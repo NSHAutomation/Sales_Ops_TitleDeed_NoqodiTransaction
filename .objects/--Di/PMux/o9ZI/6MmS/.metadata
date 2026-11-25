@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Seller Fee Voucher",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "6MmSPxSqa0yNH8VpT9wAyQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/6MmSPxSqa0yNH8VpT9wAyQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T13:05:05.5931539Z",
+  "Updated": "2026-11-19T13:05:16.1657307Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Go to list - Payment Terms",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "16MekiEMs0SZZSjEt84N2w",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/16MekiEMs0SZZSjEt84N2w",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg",
+  "Created": "2026-11-17T07:46:05.767431Z",
+  "Updated": "2026-11-17T07:46:29.4791539Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

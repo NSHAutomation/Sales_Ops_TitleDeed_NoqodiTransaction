@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fUC-5_Xm40GDvS0W0D_82Q" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/hbpJUCPiOUC3c04A7bSHUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/_ui/search/ui/UnifiedSearchResults" DesignTimeRectangle="295, 365, 89, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;uia cls='list' /&gt;&lt;uia role='row' idx='{0}' /&gt;&lt;uia name='{1}' role='link' /&gt;&quot;,rowIdx.ToString, CurrentRow(&quot;Opportunity Name&quot;).ToString)]" Guid="b964c331-4bc3-4e06-a483-ac8ac3ddecb7" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="8e6d207b50c7757ca8d3e283783afa36.jpg" xmlns="">02eHlhkM2GU6EQmXmeMBRbg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

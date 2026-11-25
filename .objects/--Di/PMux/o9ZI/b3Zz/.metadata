@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Save as Draft",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "b3Zzvq1-5ESGb75ZIr9JGg",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/b3Zzvq1-5ESGb75ZIr9JGg",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T10:16:43.2726272Z",
+  "Updated": "2026-11-13T10:16:43.2726272Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

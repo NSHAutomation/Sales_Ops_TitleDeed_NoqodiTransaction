@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Payment Type",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "EurXB9qEq0Sa6X4UKloDtw",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/EurXB9qEq0Sa6X4UKloDtw",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:55:56.9554691Z",
+  "Updated": "2026-11-17T07:56:22.2500865Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

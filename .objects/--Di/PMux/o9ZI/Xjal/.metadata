@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Person Account: Mobile Country Code",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Xjal7Z2wc0W__IVPsAfcCA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/Xjal7Z2wc0W__IVPsAfcCA",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T08:36:59.7966657Z",
+  "Updated": "2026-11-19T08:37:17.9387188Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

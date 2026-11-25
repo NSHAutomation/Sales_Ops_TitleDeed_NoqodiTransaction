@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Passport Type",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "pPomjyLkg0CkEg6H1Vpu9w",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/pPomjyLkg0CkEg6H1Vpu9w",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T08:12:51.8027473Z",
+  "Updated": "2026-11-19T08:13:07.315607Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

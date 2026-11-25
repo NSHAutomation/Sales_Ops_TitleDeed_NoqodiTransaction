@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VRRiIeGXQUCF7hC-fXiu6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/a0iVH00000DBHZ7" DesignTimeRectangle="75, 557, 517, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' aaname='Payment Terms' /&gt;" Guid="639750d7-b407-4a4a-a9f1-3beebef1fd4b" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Oppo*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="d8781ba320cf7593cb0296f42548fd91.jpg" xmlns="">0UrhRuSoMhkyRdgGORxe_wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

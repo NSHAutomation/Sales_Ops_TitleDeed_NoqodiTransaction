@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Percentage",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "dCPED_xK8EqNsGfR3hfsKA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/dCPED_xK8EqNsGfR3hfsKA",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T08:08:16.3597484Z",
+  "Updated": "2026-11-17T08:08:16.3597484Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Checker Table",
+  "Type": "Element",
+  "TaxonomyType": "Table",
+  "Id": "_VkcrwwB2kGpAIfw3C574g",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/_VkcrwwB2kGpAIfw3C574g",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T13:18:42.0011431Z",
+  "Updated": "2026-11-19T13:19:04.0441105Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

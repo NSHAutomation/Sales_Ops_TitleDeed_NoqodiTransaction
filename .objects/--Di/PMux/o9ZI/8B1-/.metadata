@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Assign and start",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "8B1-mN-cLEWE_IT9PPQAgQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/8B1-mN-cLEWE_IT9PPQAgQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T13:22:33.840272Z",
+  "Updated": "2026-11-19T13:22:33.840272Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

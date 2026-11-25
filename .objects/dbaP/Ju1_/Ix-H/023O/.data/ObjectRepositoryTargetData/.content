@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9Qw6QYXCyU2ujXNzZDBkBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/servlet/servlet.FileDownload" DesignTimeRectangle="12, 129, 1912, 915" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl role='document' text='chrome-*' /&gt;&lt;ctrl name='PDF Document' role='document' /&gt;" Guid="f67497e4-02ca-4226-ad8a-c807f8f7d509" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="16947e7ebf2e95f77c591b5e3f2636ad.jpg" xmlns="">0ja9zJpIXdU6KHNrkA4VGzw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DLD 2.0",
+  "Type": "Screen",
+  "Id": "o9ZI7ZsnzUuJq_my5eFWMw",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/PMuxD1ZK3Eyfus5wTTGIpg",
+  "Created": "2026-11-12T11:37:32.7776163Z",
+  "Updated": "2026-11-12T11:37:32.7776163Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

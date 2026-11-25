@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Browse EID Buyer Details",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "698gf7skyEK5Fxu0updNtA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/698gf7skyEK5Fxu0updNtA",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T08:53:31.8962602Z",
+  "Updated": "2026-11-19T08:53:57.5672143Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

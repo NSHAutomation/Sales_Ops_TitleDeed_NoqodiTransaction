@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Yes-Buyer Broker",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "R_xNJGhuLUqDN9y7ZLkkSw",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/R_xNJGhuLUqDN9y7ZLkkSw",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:19:07.7965804Z",
+  "Updated": "2026-11-17T07:30:30.7069558Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

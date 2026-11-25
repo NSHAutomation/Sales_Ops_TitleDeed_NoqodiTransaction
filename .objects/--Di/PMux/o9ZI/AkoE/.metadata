@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Individual Buyer",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "AkoE4TnrBE697pJMYzH1uQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/AkoE4TnrBE697pJMYzH1uQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T10:21:02.6244451Z",
+  "Updated": "2026-11-13T10:21:02.6244451Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

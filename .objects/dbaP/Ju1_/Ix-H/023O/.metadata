@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Keyboard Shortcuts-Enter",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "023Oqxs_3kabllVV0bLUig",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/023Oqxs_3kabllVV0bLUig",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg",
+  "Created": "2026-11-16T12:18:35.677821Z",
+  "Updated": "2026-11-16T12:18:35.677821Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

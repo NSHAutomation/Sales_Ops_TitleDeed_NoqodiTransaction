@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6lf-YA4qWUqK6YXYvi3WMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/20376" DesignTimeRectangle="349, 549, 981, 90" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='radix-_r_h9_' matching:id='fuzzy' fuzzylevel:id='0.0' tag='BUTTON' type='button' aaname='Deal Price' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Deal Price' /&gt;" Guid="dbf33aab-ea23-46eb-8e8d-c257ea066ac4" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="365, 582, 84, 24" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='H6' aaname='Deal Price' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Deal Price' /&gt;" Guid="f3f60ee6-4291-4ad2-b38f-ea40fd70d644" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2f6b0c4e32b722a9fbb717c681ee0d16.jpg" xmlns="">0vLcokiwXhECO09zpqteU0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

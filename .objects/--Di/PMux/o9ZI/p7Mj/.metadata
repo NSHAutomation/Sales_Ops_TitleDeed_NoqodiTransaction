@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Project Names",
+  "Type": "Element",
+  "TaxonomyType": "Container",
+  "Id": "p7Mjyxto_EOS3oV4mmiwzw",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/p7Mjyxto_EOS3oV4mmiwzw",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-12T11:48:37.8103363Z",
+  "Updated": "2026-11-12T11:48:37.8103363Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

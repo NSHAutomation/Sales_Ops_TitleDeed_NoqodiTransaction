@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Mouse Scroll-Opportunity Properties",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "a4Q_7cMO_U-SQERw06uJGw",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/a4Q_7cMO_U-SQERw06uJGw",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg",
+  "Created": "2026-11-17T07:36:02.9111533Z",
+  "Updated": "2026-11-17T07:37:49.5836195Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

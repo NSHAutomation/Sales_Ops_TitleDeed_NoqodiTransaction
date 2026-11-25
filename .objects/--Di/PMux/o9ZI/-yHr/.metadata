@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Save Checker Review",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "-yHr0iaszkKOIl8jgJo8bQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/-yHr0iaszkKOIl8jgJo8bQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T13:27:28.9412995Z",
+  "Updated": "2026-11-19T13:27:50.571282Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

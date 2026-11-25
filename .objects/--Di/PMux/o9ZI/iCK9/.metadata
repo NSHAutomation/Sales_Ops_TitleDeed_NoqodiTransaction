@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Another Payment",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "iCK9e7TCLUGUo38UYekpzg",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/iCK9e7TCLUGUo38UYekpzg",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T08:09:31.1388522Z",
+  "Updated": "2026-11-17T08:09:31.1388522Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

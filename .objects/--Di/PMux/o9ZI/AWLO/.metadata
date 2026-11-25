@@ -1,0 +1,14 @@
+﻿{
+  "Name": "BUTTON isResident-yes",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "AWLOlwCSZ0-RK5vMoGRYDw",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/AWLOlwCSZ0-RK5vMoGRYDw",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T08:49:04.809001Z",
+  "Updated": "2026-11-19T08:49:04.809001Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

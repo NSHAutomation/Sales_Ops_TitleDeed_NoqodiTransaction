@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Browse",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "q6VnxqMtMUSYrJoEzC594A",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/q6VnxqMtMUSYrJoEzC594A",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T07:50:52.8625873Z",
+  "Updated": "2026-11-13T07:50:52.8625873Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Seller Broker",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "_lyYUtcE70eAfPbFDaflRw",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/_lyYUtcE70eAfPbFDaflRw",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:16:05.4872087Z",
+  "Updated": "2026-11-17T07:16:05.4872087Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

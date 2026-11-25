@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7f55hMd3HEmIsRb67hif5g" Reference="8BpuFSLbfU-l7uzrMDPDhA/ql6psDvoiUOHlUb0H0NFRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/eqdldwlq5x3z3e8hho8o054u" DesignTimeRectangle="329, 664, 108, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='Start Service' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='BUTTON' check:innerText='Start Service' /&gt;" Guid="c5a69d4e-0e5c-4998-89fa-f79a06e79b3a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="329, 552, 457, 20" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='First Sale' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='P' check:innerText='First Sale' /&gt;" Guid="9adb8a01-5a9b-415e-a1f0-1388d724a6a4" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bc73a4c2078e279afdc192a3fbf67cbe.jpg" xmlns="">0genLajbFo0-QlPY8cFVQhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

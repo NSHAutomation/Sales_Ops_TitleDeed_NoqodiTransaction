@@ -1,0 +1,17 @@
+﻿{
+  "Name": "No-Seller Broker",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "TGhUN7rTuE28WOR2tL-8xQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/TGhUN7rTuE28WOR2tL-8xQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:17:09.6348901Z",
+  "Updated": "2026-11-17T07:27:08.1213693Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

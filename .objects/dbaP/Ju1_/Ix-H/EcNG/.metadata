@@ -1,0 +1,14 @@
+﻿{
+  "Name": "View",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "EcNGQTxupk-ILb8nVV1raQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/EcNGQTxupk-ILb8nVV1raQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg",
+  "Created": "2026-11-12T09:36:05.6536803Z",
+  "Updated": "2026-11-12T09:36:05.6536803Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Nov",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "1Om8UN3HmkqXk-o7LRTW4g",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/1Om8UN3HmkqXk-o7LRTW4g",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-25T10:38:12.5697048Z",
+  "Updated": "2026-11-25T10:38:12.5697048Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

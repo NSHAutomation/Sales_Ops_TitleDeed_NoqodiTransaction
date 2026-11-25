@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Opportunitie Number",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "hbpJUCPiOUC3c04A7bSHUg",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/hbpJUCPiOUC3c04A7bSHUg",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg",
+  "Created": "2026-11-25T11:28:55.0109327Z",
+  "Updated": "2026-11-25T11:29:14.6942227Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

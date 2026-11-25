@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UbuQduCcWky4F3-xRlLCxg" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/bMG2fjxfDUqmch9GPUjvng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/21283" DesignTimeRectangle="855, 588, 172, 40" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl parentid='radix-_r_sa_' tag='DIV' class='flex flex-row gap-4 justify-between items-start overflow-auto' idx='{0}' /&gt; &lt;webctrl tag='INPUT' type='text' /&gt;&quot;,rowIdx.ToString)]" Guid="419f31c2-cfd5-4d99-a2d1-4b380da53c0e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="206ca6d15a52d182d6b59b4ab4d2c04c.jpg" xmlns="">06NorFQMzwUWaYvjN7BSYSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

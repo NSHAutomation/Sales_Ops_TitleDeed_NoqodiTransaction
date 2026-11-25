@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Apply Discount",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "m9zocp4hGU-SS3nyVFIpvA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/m9zocp4hGU-SS3nyVFIpvA",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T09:59:28.8585914Z",
+  "Updated": "2026-11-13T09:59:55.2072564Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

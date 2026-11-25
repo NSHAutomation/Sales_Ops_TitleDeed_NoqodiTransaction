@@ -1,0 +1,14 @@
+﻿{
+  "Name": "No broker found",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "2eWDZXL2dUCkADV9V7u1sQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/2eWDZXL2dUCkADV9V7u1sQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:29:38.63798Z",
+  "Updated": "2026-11-17T07:29:38.63798Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

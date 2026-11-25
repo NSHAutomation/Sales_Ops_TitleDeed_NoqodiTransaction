@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Deal Price",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "572_hvT2I0ORj1k8gFjPEQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/572_hvT2I0ORj1k8gFjPEQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T09:44:12.0635267Z",
+  "Updated": "2026-11-13T09:44:12.0635267Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

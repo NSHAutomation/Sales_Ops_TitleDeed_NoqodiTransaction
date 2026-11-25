@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Payment Plan",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "D5VXzAypBEWZDc_7z_pCDA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/D5VXzAypBEWZDc_7z_pCDA",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-18T13:20:59.5266163Z",
+  "Updated": "2026-11-18T13:20:59.5266163Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

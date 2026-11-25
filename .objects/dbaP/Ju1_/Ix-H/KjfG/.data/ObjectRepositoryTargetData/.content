@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="38E0FK6s0US84Yh7NOHtfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/006VH00000ucSvuYAE" DesignTimeRectangle="135, 436, 57, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' class='bPageBlock brandSecondaryBrd secondaryPalette' visibleinnertext='Notes &amp;amp; Attachments*' /&gt;&lt;webctrl aaname='Go to list »' tag='A' /&gt;" Guid="acc9134a-227a-4b12-a743-6393b54602d1" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="90799539d2d33594f742c5120c320d3b.jpg" xmlns="">0qkNyd0LiREGc-uH_c35UdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

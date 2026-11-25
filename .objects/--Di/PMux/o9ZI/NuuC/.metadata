@@ -1,0 +1,17 @@
+﻿{
+  "Name": "No-Extra Parking Space",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "NuuC0gzzp0K_kqFD3J5S3g",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/NuuC0gzzp0K_kqFD3J5S3g",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T10:14:02.5203612Z",
+  "Updated": "2026-11-17T07:27:20.1897083Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

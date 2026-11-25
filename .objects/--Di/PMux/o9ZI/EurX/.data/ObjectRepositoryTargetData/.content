@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4tICkEE8NkmN7LfWYZbNYA" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/EurXB9qEq0Sa6X4UKloDtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/21283" DesignTimeRectangle="818, 543, 222, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl parentid='radix-_r_sa_' tag='DIV' class='flex flex-row gap-4 justify-between items-start overflow-auto' idx='{0}' /&gt; &lt;webctrl aria-role='combobox' tag='BUTTON' type='button' /&gt;&quot;,rowIdx.ToString)]" Guid="e3ad7923-0a98-4b32-8863-4a9278254a90" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="219df0983f22431256d6af033a8c1ec6.jpg" xmlns="">0pm2ANSIyLkanRsZ-dC5uSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NV_GU-w_2ECWe8UwcaXLLw" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/8B1-mN-cLEWE_IT9PPQAgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/all-requests" DesignTimeRectangle="1684, 889, 111, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl tag='TABLE' aaname=' Request Number. Type Status Date Project Building Name Property Type Property number Assigned To' /&gt;&lt;webctrl aaname='Assign and start' tag='BUTTON' idx='{0}' /&gt;&quot;,rowIndex.ToString)]" Guid="8ea91b9d-93e7-4a4f-8273-8a1b9ab5761a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="e7efa8240578d4f8071e3ce4ce67b4c2.jpg" xmlns="">0n1AGNZAEnkO96qsR4ytJBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

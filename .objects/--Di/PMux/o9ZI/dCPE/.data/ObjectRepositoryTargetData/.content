@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MjGaI6ju_ES85AClud8Y_Q" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/dCPED_xK8EqNsGfR3hfsKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/21283" DesignTimeRectangle="1554, 550, 44, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl parentid='radix-_r_sa_' tag='DIV' class='flex flex-row gap-4 justify-between items-start overflow-auto' idx='{0}' /&gt;&#xD;&#xA;&lt;webctrl name='*percentage' tag='INPUT' type='text' /&gt;&quot;,rowIdx.ToString)]" FuzzyAccuracy="0.88" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='Percentage' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6a04618c-8267-4367-8505-f663d3ee6593" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1537, 510, 110, 24" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='Percentage' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='LABEL' check:innerText='Percentage' /&gt;" Guid="1479ec5c-9a42-4924-8ccd-d9edf64f1f96" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="587432be286dcf333c6e7aede6a4db0e.jpg" xmlns="">00ragJ8DfMUmHV1tJANRwyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

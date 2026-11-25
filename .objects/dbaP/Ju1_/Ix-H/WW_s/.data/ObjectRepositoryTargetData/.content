@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NZGpRkrWLUyJJ8GTheznwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/006VH00000tIQFhYAO" DesignTimeRectangle="223, 392, 75, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Print' cls='Button' /&gt;" Guid="7f649649-958c-4a2f-a6f6-2f62fc572d5c" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='*' title='Print' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="202c6bfc11b851d787994f6526dac0f2.jpg" xmlns="">0byW-MEV4XUaCAVF_9-_-Fw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Opportunities",
+  "Type": "Element",
+  "TaxonomyType": "Table",
+  "Id": "b8V07c4YZk6j8ziwQOtM9A",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/b8V07c4YZk6j8ziwQOtM9A",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg",
+  "Created": "2026-11-25T11:24:52.3594484Z",
+  "Updated": "2026-11-25T11:25:10.1839313Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

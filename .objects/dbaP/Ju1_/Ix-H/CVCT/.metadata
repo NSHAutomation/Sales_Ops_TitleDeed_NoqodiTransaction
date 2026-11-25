@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Table-Payment Terms",
+  "Type": "Element",
+  "TaxonomyType": "Table",
+  "Id": "CVCTCH1FNkiKrmbgnoH_zg",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/CVCTCH1FNkiKrmbgnoH_zg",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg",
+  "Created": "2026-11-20T05:32:59.2111338Z",
+  "Updated": "2026-11-20T05:33:33.2649008Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

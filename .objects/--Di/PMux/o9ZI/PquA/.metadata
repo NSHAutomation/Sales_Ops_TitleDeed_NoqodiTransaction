@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Select Report Sub Type",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "PquAR1Ne70-81g4hOqEzpg",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/PquAR1Ne70-81g4hOqEzpg",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-25T10:29:26.2368778Z",
+  "Updated": "2026-11-25T10:30:10.6364808Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

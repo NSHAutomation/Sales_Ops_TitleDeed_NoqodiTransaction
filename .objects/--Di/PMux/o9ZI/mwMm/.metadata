@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Search broker",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "mwMmomEsCUaT40CjArd72g",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/mwMmomEsCUaT40CjArd72g",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:20:14.3443085Z",
+  "Updated": "2026-11-17T07:20:14.3443085Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

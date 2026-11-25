@@ -1,0 +1,506 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="sf_CreateMileStone" this:sf_CreateMileStone.in_ProcedureNumber="Test" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd2="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:umae="clr-namespace:UiPath.Mail.Activities.Enums;assembly=UiPath.Mail.Activities" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_ProcedureNumber" Type="InArgument(x:String)" />
+    <x:Property Name="in_TransactionItem" Type="InArgument(sd:DataRow)" />
+    <x:Property Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>sf_CreateMileStone_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="sf_CreateMileStone" sap:VirtualizedContainerService.HintSize="1275,4157" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_Opportunities" />
+      <Variable x:TypeArguments="x:Int32" Name="rowIdx">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" Value="2" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Sequence-Create Milestone Application Registered" sap:VirtualizedContainerService.HintSize="650,4134" sap2010:WorkflowViewState.IdRef="Sequence_6">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch DisplayName="Try Catch-Create Milestone Application Registered" sap:VirtualizedContainerService.HintSize="616,4051" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+        <TryCatch.Try>
+          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="558,3545" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Salesforce Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,3485" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e8217dc9-16a3-4eac-a4c5-90b2c2382fa7" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,3290" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT phSearchInput'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="e8217dc9-16a3-4eac-a4c5-90b2c2382fa7" Text="[in_TransactionItem(&quot;Request No./Year&quot;).ToString]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/home/home.jsp" ContentHash="gR8-PyljLEiVEeWdNWWIiA" DesignTimeRectangle="100, 108, 172, 16" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='phSearchInput' tag='INPUT' type='text' /&gt;" Guid="cab01d68-90b7-4364-80b2-c4f2348c8e49" InformativeScreenshot="d37257433e9c1d164c754807492c1b07.jpg" IsResponsive="True" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/Pf45WP5QjESQoq7OvVrifw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,194" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8217dc9-16a3-4eac-a4c5-90b2c2382fa7" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/home/home.jsp" ContentHash="Ry4lRAT7AkSsjApkBiOmiQ" DesignTimeRectangle="292, 104, 44, 24" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='phSearchButton' tag='INPUT' aaname='Search' type='button' /&gt;" Guid="c6ed101b-3082-45d0-81dc-a5195543384d" InformativeScreenshot="0f8d6dafb6b8239d0052337ad8f8246f.jpg" IsResponsive="True" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/yy_gopI4uUaQk5_gp0cztg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NExtractDataGeneric x:TypeArguments="sd:DataTable" ContinueOnError="True" DisplayName="Extract Table Data 'Opportunities'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Action' ReferenceIdx='0' Name='Action'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Opportunity Name' ReferenceIdx='1' Name='Opportunity Name'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Account Name' ReferenceIdx='2' Name='Account Name'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Joint Owners' ReferenceIdx='3' Name='Joint Owners'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Order Date' ReferenceIdx='4' Name='Order Date'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Order Event' ReferenceIdx='5' Name='Order Event'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Order No' ReferenceIdx='6' Name='Order No'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Stage' ReferenceIdx='7' Name='Stage'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Milestone Current Status' ReferenceIdx='8' Name='Milestone Current Status'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Current milestone status Handover' ReferenceIdx='9' Name='Current milestone status Handover'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Action' attr='fulltext' /&gt;&lt;column name='Opportunity Name' attr='fulltext' /&gt;&lt;column name='Account Name' attr='fulltext' /&gt;&lt;column name='Joint Owners' attr='fulltext' /&gt;&lt;column name='Order Date' attr='fulltext' /&gt;&lt;column name='Order Event' attr='fulltext' /&gt;&lt;column name='Order No' attr='fulltext' /&gt;&lt;column name='Stage' attr='fulltext' /&gt;&lt;column name='Milestone Current Status' attr='fulltext' /&gt;&lt;column name='Current milestone status Handover' attr='fulltext' /&gt;&lt;/extract-table&gt;" ExtractedData="[dt_Opportunities]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,143" sap2010:WorkflowViewState.IdRef="NExtractDataGeneric`1_1" InteractionMode="DebuggerApi" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="e8217dc9-16a3-4eac-a4c5-90b2c2382fa7" Version="V5">
+                      <uix:NExtractDataGeneric.Target>
+                        <uix:TargetAnchorable BrowserURL="https://nshama.my.salesforce.com/_ui/search/ui/UnifiedSearchResults?searchType=2&amp;sen=a1r&amp;sen=a3w&amp;sen=a3Y&amp;sen=00O&amp;sen=001&amp;sen=003&amp;sen=00T&amp;sen=005&amp;sen=500&amp;sen=00U&amp;sen=006&amp;sen=a4O&amp;sen=a3Q&amp;str=7196%2F2026" ContentHash="pdRbcdn3bkm7fQODOg5J7w" DesignTimeRectangle="249, 338, 1648, 46" ElementType="Table" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' aaname='Action Opportunity Name Account Name Joint Owners Order Date Order Event Order No Stage Milestone Current Status Current milestone status Handover*' idx='3' /&gt;" Guid="330e7278-fceb-4954-ac6c-22f2174d8315" InformativeScreenshot="b4f1c39c30c3842dcf9183922155a248.jpg" IsResponsive="True" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/b8V07c4YZk6j8ziwQOtM9A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                      </uix:NExtractDataGeneric.Target>
+                    </uix:NExtractDataGeneric>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_Opportunities]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="488,906" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,724" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <If Condition="[CurrentRow(&quot;Stage&quot;).ToString.Contains(&quot;Closed Won&quot;)]" sap:VirtualizedContainerService.HintSize="452,498" sap2010:WorkflowViewState.IdRef="If_1">
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,302" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DelayAfter="5" DisplayName="Click Opportunitie Number" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8217dc9-16a3-4eac-a4c5-90b2c2382fa7" Version="V5">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/_ui/search/ui/UnifiedSearchResults" ContentHash="fUC-5_Xm40GDvS0W0D_82Q" DesignTimeRectangle="295, 365, 89, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;uia cls='list' /&gt;&lt;uia role='row' idx='{0}' /&gt;&lt;uia name='{1}' role='link' /&gt;&quot;,rowIdx.ToString, CurrentRow(&quot;Opportunity Name&quot;).ToString)]" Guid="b964c331-4bc3-4e06-a483-ac8ac3ddecb7" InformativeScreenshot="8e6d207b50c7757ca8d3e283783afa36.jpg" IsResponsive="True" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/hbpJUCPiOUC3c04A7bSHUg" ScopeSelectorArgument="&lt;wnd app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V6" WaitForReadyArgument="Complete" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <ui:Break sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Break_1" />
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                            <Assign sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="Assign_1">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:Int32">[rowIdx]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:Int32">[rowIdx+1]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                    </ui:ForEachRow>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Create Milestone'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,194" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8217dc9-16a3-4eac-a4c5-90b2c2382fa7" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/006VH00000rFvqfYAC" ContentHash="drs0LYiiwUalpceM3RhifA" DesignTimeRectangle="731, 381, 95, 18" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Create Milestone' type='button' /&gt;" Guid="7ba938d2-aa41-41e9-85c4-6d6c9b615449" InformativeScreenshot="1102d2f47aeb9968d2a545c7ccc98f14.jpg" IsResponsive="True" Reference="8BpuFSLbfU-l7uzrMDPDhA/rANKwqckTE6mykg89KHeVw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Edge Salesforce-Create Milestone" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1547" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="6e3ea2f2-9efe-4702-a045-055e46a5ba75" Version="V2">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1352" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                              <ui:CommentOut.Body>
+                                <Sequence DisplayName="Ignored activities" sap:VirtualizedContainerService.HintSize="650,165" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'pane'" sap:VirtualizedContainerService.HintSize="616,57" sap2010:WorkflowViewState.IdRef="Activate_1">
+                                    <ui:Activate.Target>
+                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="229bd21f-adf8-44d6-8a8b-dee8cd2d9e3b" InformativeScreenshot="8de7c52956a7a5dc95ef29f1b946aa02" Selector="&lt;wnd app='msedge.exe' title='Salesforce - Unlimited Edition and 1 more page - Work - Microsoft*' /&gt;&lt;ctrl omit:name='Salesforce - Unlimited Edition - Microsoft Edge - Work' role='pane' /&gt;" WaitForReady="COMPLETE">
+                                        <ui:Target.TimeoutMS>
+                                          <InArgument x:TypeArguments="x:Int32" />
+                                        </ui:Target.TimeoutMS>
+                                      </ui:Target>
+                                    </ui:Activate.Target>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </ui:Activate>
+                                  <uix:NWindowOperation DelayBefore="5" DisplayName="Window Operation - Show window" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="616,48" sap2010:WorkflowViewState.IdRef="NWindowOperation_1" Operation="Show" ScopeIdentifier="6e3ea2f2-9efe-4702-a045-055e46a5ba75" Version="V5">
+                                    <uix:NWindowOperation.Target>
+                                      <uix:TargetAnchorable BrowserURL="nshama--c.vf.force.com/apex/CreateMilestone" ContentHash="fKS9CxUhlUapFd6Zy0nqbw" DesignTimeRectangle="0, 0, 1936, 1056" Guid="081ff735-ab48-4af8-a8a0-7f64c42e9ab8" InformativeScreenshot="4294e8938c26e5078e2fd0cf622bc4ec.jpg" Reference="8BpuFSLbfU-l7uzrMDPDhA/3hB6tIcBHUmncxbT8rVEeg" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Salesforce - Unlimited Edition and 1 more page - Work - Microsof*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                    </uix:NWindowOperation.Target>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NWindowOperation>
+                                </Sequence>
+                              </ui:CommentOut.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:CommentOut>
+                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Delay_1">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Delay>
+                            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" ScopeIdentifier="6e3ea2f2-9efe-4702-a045-055e46a5ba75" Shortcuts="[d(hk)][k(Esc)][u(hk)]" Version="V5">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NKeyboardShortcuts>
+                            <uix:NSelectItem DisplayName="Select Item 'Milestone'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Noqodi Transactions" ScopeIdentifier="6e3ea2f2-9efe-4702-a045-055e46a5ba75" Version="V5">
+                              <uix:NSelectItem.Items>
+                                <scg:List x:TypeArguments="x:String" Capacity="35">
+                                  <x:String>--None--</x:String>
+                                  <x:String>SA Color Selection</x:String>
+                                  <x:String>SA Contract Status</x:String>
+                                  <x:String>Initial Registration</x:String>
+                                  <x:String>PTD NOC Letter</x:String>
+                                  <x:String>Email Control</x:String>
+                                  <x:String>Handover</x:String>
+                                  <x:String>Title Deed Status</x:String>
+                                  <x:String>Installment 10</x:String>
+                                  <x:String>Installment 8</x:String>
+                                  <x:String>Installment 4</x:String>
+                                  <x:String>Installment 6</x:String>
+                                  <x:String>Installment 7</x:String>
+                                  <x:String>Installment 5</x:String>
+                                  <x:String>Installment 2</x:String>
+                                  <x:String>Installment 3</x:String>
+                                  <x:String>Installment 9</x:String>
+                                  <x:String>Installment 1</x:String>
+                                  <x:String>Security Deposit</x:String>
+                                  <x:String>Customer Care</x:String>
+                                  <x:String>Audit Milestone</x:String>
+                                  <x:String>DLD Termination</x:String>
+                                  <x:String>Legal</x:String>
+                                  <x:String>Noqodi Transactions</x:String>
+                                  <x:String>DSR Confirmations</x:String>
+                                  <x:String>Handover Previous Process</x:String>
+                                  <x:String>Community Violation</x:String>
+                                  <x:String>SPA Addendum Status</x:String>
+                                  <x:String>Miscellaneous</x:String>
+                                  <x:String>PP Change</x:String>
+                                  <x:String>Mortgage Request</x:String>
+                                  <x:String>Court Termination</x:String>
+                                  <x:String>DLD Settlement</x:String>
+                                  <x:String>Retail Parking Fees</x:String>
+                                  <x:String>NCM Legal</x:String>
+                                </scg:List>
+                              </uix:NSelectItem.Items>
+                              <uix:NSelectItem.Target>
+                                <uix:TargetAnchorable BrowserURL="nshama--c.vf.force.com/apex/CreateMilestone" ContentHash="l_l3HiAA6UGBv8wxuKUEFA" DesignTimeRectangle="387, 490, 200, 19" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='SELECT' aaname='Milestone' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3df55271-221c-4787-a293-d7112ec17934" InformativeScreenshot="7cc20905423a61546c62416064abaab7.jpg" IsResponsive="True" Reference="8BpuFSLbfU-l7uzrMDPDhA/YY0J1GvkrU-gqa258l6E6g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce - Unlimited Edition*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="317, 490, 50, 12" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='LABEL' aaname='Milestone' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Milestone' /&gt;" Guid="fb550ba5-c815-4f1a-8582-1c29c68381cf" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NSelectItem.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NSelectItem>
+                            <uix:NSelectItem DelayAfter="2" DisplayName="Select Item 'Status'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="Title Deed Payment Successful" ScopeIdentifier="6e3ea2f2-9efe-4702-a045-055e46a5ba75" Version="V5">
+                              <uix:NSelectItem.Items>
+                                <scg:List x:TypeArguments="x:String" Capacity="4">
+                                  <x:String>--None--</x:String>
+                                  <x:String>Title Deed Payment Successful</x:String>
+                                  <x:String>Pre Title Deed Payment Successful</x:String>
+                                  <x:String>Oqood Payment Successful</x:String>
+                                </scg:List>
+                              </uix:NSelectItem.Items>
+                              <uix:NSelectItem.Target>
+                                <uix:TargetAnchorable BrowserURL="nshama--c.vf.force.com/apex/CreateMilestone" ContentHash="mhwYUBYMwUSX4Z3wazwzeA" DesignTimeRectangle="1310, 490, 300, 19" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='TABLE' aaname='Milestone Status *Milestone Date Responsibility Comments' /&gt;&lt;webctrl tag='SELECT' aaname='Status' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d1db93d5-dda4-4683-80d8-29c610577bdf" InformativeScreenshot="f0ff08172130115ec31a559d5b2fdfa6.jpg" IsResponsive="True" Reference="8BpuFSLbfU-l7uzrMDPDhA/DzeH8Bm85kCPG6GKl-zd1g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce - Unlimited Edition*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="1257, 490, 33, 12" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='TABLE' aaname='Milestone Status *Milestone Date Responsibility Comments' /&gt;&lt;webctrl aaname='Status' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='LABEL' check:innerText='Status' /&gt;" Guid="d8142bc7-777f-4977-9e5c-ea3dae10a574" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NSelectItem.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NSelectItem>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TEXTAREA Payment Ref No'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="6e3ea2f2-9efe-4702-a045-055e46a5ba75" Text="[in_TransactionItem(&quot;Payment Ref No&quot;).ToString]" Version="V5">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="nshama--c.vf.force.com/apex/CreateMilestone" ContentHash="fPF1jkZ-IE24MlB11yV_cw" DesignTimeRectangle="387, 556, 141, 48" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' aaname='Milestone Status *Milestone Date Responsibility Comments' /&gt;&lt;webctrl type='text' tag='TEXTAREA' aaname='Comments' /&gt;" Guid="946d43d8-4cf7-4a45-b8cb-0bd6d3bb0025" InformativeScreenshot="073e57c46b2f8df3b1a5729b4943a485.jpg" IsResponsive="True" Reference="8BpuFSLbfU-l7uzrMDPDhA/dTw8fGs580K5ZhmO8PZVZw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce - Unlimited Edition*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                              </uix:NTypeInto.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NTypeInto>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'Generate Milestone'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6e3ea2f2-9efe-4702-a045-055e46a5ba75" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="nshama--c.vf.force.com/apex/CreateMilestone" ContentHash="q1gnm_3M90uJ_svFWBHjXA" DesignTimeRectangle="888, 267, 108, 18" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Generate Milestone' /&gt;" Guid="88ea6404-1c73-4804-9a4d-e599efe22ae9" InformativeScreenshot="6b26b7ae309bed402ead5fd6a0b0675f.jpg" IsResponsive="True" Reference="8BpuFSLbfU-l7uzrMDPDhA/rfmRRtJCxEyJmM_aYbua-Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce - Unlimited Edition*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                              </uix:NClick.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NClick>
+                            <uix:NNavigateBrowser Action="CloseTab" DisplayName="Navigate Browser - Close Tab" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" ScopeIdentifier="6e3ea2f2-9efe-4702-a045-055e46a5ba75" Version="V5">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NNavigateBrowser>
+                            <ui:SendOutlookMail Account="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseRichTextEditor="{x:Null}" Bcc="[in_Config(&quot;BCCMail&quot;).ToString]" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Greetings,&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Milestone created Naqodi Transaction&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;with &lt;/SPAN&gt;&lt;SPAN&gt;procedure number: &lt;/SPAN&gt;&lt;SPAN&gt;{0}&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Payment Ref No : {1}&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Thank you&lt;/SPAN&gt;&lt;/P&gt;&quot;, in_TransactionItem(&quot;Request No./Year&quot;).ToString, in_TransactionItem(&quot;Payment Ref No&quot;).ToString)]" ConnectionMode="LegacyConfiguration" CreatedAfterSolutionSupport="False" DisplayName="Send Outlook Desktop Mail Message" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="High" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" Subject="[&quot;Title Deed | Milestone Created For Naqodi Transaction | &quot;+in_TransactionItem(&quot;Request No./Year&quot;).ToString()]" To="[in_Config(&quot;MailTo&quot;).ToString]" UseISConnection="False">
+                              <ui:SendOutlookMail.ConnectionDetailsBackupSlot>
+                                <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="{x:Null}">
+                                  <usau:BackupSlot.BackupValues>
+                                    <scg:Dictionary x:TypeArguments="umae:ConnectionDetails, scg:List(x:Object)" />
+                                  </usau:BackupSlot.BackupValues>
+                                </usau:BackupSlot>
+                              </ui:SendOutlookMail.ConnectionDetailsBackupSlot>
+                              <ui:SendOutlookMail.Files>
+                                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                              </ui:SendOutlookMail.Files>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:SendOutlookMail>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.OCREngine>
+                        <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
+                          <ActivityFunc.Argument>
+                            <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
+                          </ActivityFunc.Argument>
+                        </ActivityFunc>
+                      </uix:NApplicationCard.OCREngine>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Edge" ContentHash="CFsMEecvUk-8ShOAeIQ80w" IconBase64="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" InformativeScreenshot="8a66825535839908f837962b9bd8ead2.jpg" Reference="8BpuFSLbfU-l7uzrMDPDhA/j3CyeEKoXkCUqBO6j0KGTw" Selector="&lt;html app='msedge.exe' title='Salesforce - Unlimited Edition' /&gt;" Url="https://nshama--c.vf.force.com/apex/CreateMilestone?id=006Hq00001WnvhP" Version="V3">
+                          <uix:TargetApp.SapInfo>
+                            <uix:SAPElementInfo IsSapSubsystem="False" WebAutomationFramework="Default" />
+                          </uix:TargetApp.SapInfo>
+                        </uix:TargetApp>
+                      </uix:NApplicationCard.TargetApp>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1936, 1056" Arguments="[&quot;--profile-directory=&quot;+&quot;Default&quot;]" BrowserType="Edge" ContentHash="4k9Hen-Rm0udA7n_xDYnuw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJGSURBVFhH7ZZBSBRRGMdHYolFJCJEJEQkJERCPISHCAlP0qGT5w7RwUNIhESEiAfxGJ46ONIpwmOIiHiQiAiRiOgUb6JTePLQIUQ6TL//25ndt85jXGmc7eDht2/3zbfv+79vvu+9L4jjuKOdnAv4fwUEq+ZCsBp1wmW4BFXN+Wz/hYwAHMkxDs0I431YgHl+TzHe0LNmu6gfrkEfNl1BGJ1KZJOA2q7NAIs9hm8QNzB/GL/CDAzCTZiFDfgMb+ERjEKnu24exwREPfASHMcZDhDzjvHLsfmUXbgHen1d0JugaGWiUxfAw4ssTJjNId99C58GCXwA0/CCNcFG7jawyUYuuQKUbOvgW7AoDCzCdbAiXAEKP+H1/rFoXkG/T8DvxKAMnkHFFXAFlM0+4+IJ7evotQKUFPxQaX2oG5TD3USADf8y/EoelMWTgA8dPiqXI+dBWcxIAPUffXImy2RcAqokRDt2/wO/3Qgw3HJeg7PmKVTSV/AzmSwJ84axzxYAXyqgCvAYFo35zrgEw+m1nZbhMHysGRVIaHS3vMbxCuNzmASVfPNlpAm4hSHGBd0Hob3YuP2MDjj1GDpp865jexqqs5kAdUJSvAd+Bw32YQt2QD3Ce5gDdVRV15mPuoD6hKIRqv+jRGp3+kn9gRJqDIZATvU6vbv1kRHgwiLqZLSbbJXUzo5NGIeK7/+tkC+ATCWR1KjcAXU126BkXYOHoPd7YpjzyBWQghOVqsJ6FVF0vzaT1fO1FOY8WhJwlpwLaLOAuOMveA1Of+TuOKQAAAAASUVORK5CYII=" InformativeScreenshot="d745452450b74afd390d5e027d8f985f.jpg" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg" Selector="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" Url="https://nshama.my.salesforce.com/home/home.jsp" Version="V3" WorkingDirectory="&#x9;C:\Users\SalesBot\AppData\Local\Microsoft\Edge\User Data\Default" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </TryCatch.Try>
+        <TryCatch.Catches>
+          <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+            <ActivityAction x:TypeArguments="s:Exception">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Catch" sap:VirtualizedContainerService.HintSize="558,349" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[exception.Message+Environment.NewLine+exception.Source]" />
+                <Throw Exception="[new SystemException(&quot;Failed To Create Milestone&quot;)]" sap:VirtualizedContainerService.HintSize="524,114" sap2010:WorkflowViewState.IdRef="Throw_1" />
+              </Sequence>
+            </ActivityAction>
+          </Catch>
+        </TryCatch.Catches>
+        <TryCatch.Finally>
+          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="558,25" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </TryCatch.Finally>
+      </TryCatch>
+    </Sequence>
+  </Sequence>
+</Activity>

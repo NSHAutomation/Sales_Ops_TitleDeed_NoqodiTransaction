@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5RKix3zRx0WxfVD_gJIcJg" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/AWLOlwCSZ0-RK5vMoGRYDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/22401" DesignTimeRectangle="1139, 478, 24, 24" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl id='isResident*' tag='BUTTON' type='button' value='{0}' /&gt;&quot;,isResident)]" Guid="e81b84a4-fe54-40e4-95f7-5faff06f212f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="a5fadfb84d90d80bc09ccdc5ffc82784.jpg" xmlns="">036tiMb9kd0O1p2GYdqx_tQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Notes & Attachments",
+  "Type": "Element",
+  "TaxonomyType": "Table",
+  "Id": "gf-YrMiLOUaFBXY6exVntA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/gf-YrMiLOUaFBXY6exVntA",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ix-Hamn1ukq95Qi5EeALGg",
+  "Created": "2026-11-12T09:18:02.4200223Z",
+  "Updated": "2026-11-12T09:18:02.4200223Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

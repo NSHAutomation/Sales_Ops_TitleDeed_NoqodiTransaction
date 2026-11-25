@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge servlet.FileDownload",
+  "Type": "Screen",
+  "Id": "k9q6iZUykEW5Rr3gx21lZg",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/k9q6iZUykEW5Rr3gx21lZg",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/Ju1_r1JuzkyksnLVnjledw",
+  "Created": "2026-11-16T12:31:38.9708859Z",
+  "Updated": "2026-11-16T12:31:38.9708859Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

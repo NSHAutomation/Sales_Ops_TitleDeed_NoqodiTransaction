@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Start Service- First Sale",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "4cGofhvpQkqpWRn7wBax4g",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/4cGofhvpQkqpWRn7wBax4g",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-12T11:38:38.5573715Z",
+  "Updated": "2026-11-12T11:38:38.5573715Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

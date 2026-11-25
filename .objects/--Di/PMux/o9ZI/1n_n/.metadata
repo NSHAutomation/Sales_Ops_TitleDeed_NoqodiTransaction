@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Create Payment Plan",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "1n_nm2tTak6qVVqnF8fnGQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/1n_nm2tTak6qVVqnF8fnGQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:49:48.345814Z",
+  "Updated": "2026-11-17T07:49:48.345814Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

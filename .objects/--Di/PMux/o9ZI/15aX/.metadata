@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Pay and Submit",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "15aX88q-T0WAFw4d7Nvzvw",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/15aX88q-T0WAFw4d7Nvzvw",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T13:28:50.2946707Z",
+  "Updated": "2026-11-19T13:28:50.2946707Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wS78A9OKhUWOcj-kuWVltg" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/rpPyNWgYQ0urBCb8PpM4kw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/21283" DesignTimeRectangle="1058, 543, 222, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl parentid='radix-_r_sa_' tag='DIV' class='flex flex-row gap-4 justify-between items-start overflow-auto' idx='{0}' /&gt;&lt;webctrl aaname='*Date' tag='LABEL' /&gt; &lt;nav up='1' /&gt; &lt;webctrl parentid='radix-_r_sa_' tag='INPUT' /&gt;&quot;,rowIdx.ToString)]" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="8ccbacd6-ce07-4361-beff-1db1f03afc7d" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1057, 510, 224, 24" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='Installment Date' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='LABEL' check:innerText='Installment Date' /&gt;" Guid="b6cabefb-f3bb-4132-a939-f3b2d81d32e0" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="196fd7a4ed9570e797079becc29bb938.jpg" xmlns="">0Rfh077vrUEmHan2Cl34PkA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

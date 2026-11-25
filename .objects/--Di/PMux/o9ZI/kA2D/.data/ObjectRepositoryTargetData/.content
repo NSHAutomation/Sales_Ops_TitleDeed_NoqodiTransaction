@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Qfuf8K8UOUyAdrj8hERTqQ" Reference="Bsh3ZzKwikqtk3xk8Kxw-w/kA2DsS6wN0WN4b479G4tmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/22401" DesignTimeRectangle="1479, 610, 24, 24" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl tag='BUTTON' type='button' value='{0}' /&gt;&quot;,in_TransactionItem(&quot;Person Account: Gender&quot;).ToString.Trim.ToLower)]" Guid="691b4c14-46ca-40ff-ad1f-55834e121850" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="0215b86814cd1bed57c3cccda06fe487.jpg" xmlns="">0__nZW5LqZUO4u8fSPvCQEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

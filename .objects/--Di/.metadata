@@ -1,0 +1,12 @@
+﻿{
+  "Name": "DLD 2.0",
+  "Type": "App",
+  "Id": "--DiLGuEYkSRa7grZbqCFA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/--DiLGuEYkSRa7grZbqCFA",
+  "Created": "2026-11-12T11:37:32.7030952Z",
+  "Updated": "2026-11-12T11:37:32.7030952Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

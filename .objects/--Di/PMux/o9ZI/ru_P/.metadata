@@ -1,0 +1,17 @@
+﻿{
+  "Name": "EID Expiry Date",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ru_Pe7W3hkmUMwHKIzPSDA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/ru_Pe7W3hkmUMwHKIzPSDA",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T08:07:44.5076366Z",
+  "Updated": "2026-11-19T08:08:03.418385Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

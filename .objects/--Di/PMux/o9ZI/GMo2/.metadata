@@ -1,0 +1,13 @@
+﻿{
+  "Name": "First Sale Transactions",
+  "Type": "Element",
+  "Id": "GMo2d2YmskuhoTxcmy2dRg",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/GMo2d2YmskuhoTxcmy2dRg",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-25T10:27:43.0832331Z",
+  "Updated": "2026-11-25T10:27:43.0832331Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

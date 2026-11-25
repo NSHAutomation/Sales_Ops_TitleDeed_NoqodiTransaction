@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Additional Items",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "bpwblHgHbkOO9ezPQjU8Ww",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/bpwblHgHbkOO9ezPQjU8Ww",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T10:08:07.4838756Z",
+  "Updated": "2026-11-13T10:08:07.4838756Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

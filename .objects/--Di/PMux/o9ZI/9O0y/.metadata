@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Start Application",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "9O0ylRXDXk6s7cL3kIfugQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/9O0ylRXDXk6s7cL3kIfugQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-12T12:05:09.2528824Z",
+  "Updated": "2026-11-12T12:05:09.2528824Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

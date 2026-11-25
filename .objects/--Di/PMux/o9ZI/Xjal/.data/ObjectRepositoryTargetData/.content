@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sUAVOQRzG0Khkwe2bpMyLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oqood2.dubailand.gov.ae/en/services/workflows/sale-preregistration/22401" DesignTimeRectangle="1067, 857, 115, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' class='flex flex-1 w-full h-full [&amp;amp;&amp;gt;div:not([data-radix-popper-content-wrapper])]:flex [&amp;amp;&amp;gt;div:not([data-radix-popper-content-wrapper])]:items-center [&amp;amp;&amp;gt;div:not([data-radix-popper-content-wrapper])]:h-full [&amp;amp;&amp;gt;div:not([data-radix-popper-content-wrapper])]:w-full [&amp;amp;&amp;gt;div:not([data-radix-popper-content-wrapper])]:gap-0 text-sm PhoneInput' /&gt;&lt;webctrl tag='BUTTON' type='button' /&gt;" Guid="28d5dd6c-7378-471c-9a5a-3a452d765ee8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="d81fa6a8337e5c6c1481927e0a799f07.jpg" xmlns="">0jMjx1GuxukqHNmmZ_Dbp7A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

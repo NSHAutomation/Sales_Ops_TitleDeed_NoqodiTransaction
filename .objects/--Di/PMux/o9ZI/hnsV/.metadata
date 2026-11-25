@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Registration Fees (4%)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "hnsVge4up0qtDo1oe2zN0A",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/hnsVge4up0qtDo1oe2zN0A",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-13T10:01:18.0350659Z",
+  "Updated": "2026-11-13T10:01:18.0350659Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

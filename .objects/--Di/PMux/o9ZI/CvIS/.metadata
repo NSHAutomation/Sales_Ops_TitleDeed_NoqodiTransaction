@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Buyer Fee Voucher",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "CvIS5LUlg0qKw8Gr-lr3ZA",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/CvIS5LUlg0qKw8Gr-lr3ZA",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-19T13:07:39.7249443Z",
+  "Updated": "2026-11-19T13:07:45.6447344Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

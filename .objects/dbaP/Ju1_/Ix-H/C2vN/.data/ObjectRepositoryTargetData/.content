@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3pylRFlQdkmm0Jn-6UarTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/006VH00000qo4TtYAI" DesignTimeRectangle="113, 293, 41, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='list' role='table' /&gt;&lt;uia role='row' idx='2' /&gt;&lt;uia cls=' dataCell  ' /&gt;&lt;uia name='*' role='link' /&gt;" Guid="93dd16bb-f288-4c16-bd54-6083af521ffb" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="f596594c5b1bfc89bea73fd826bb6d73.jpg" xmlns="">07Ro2W1-L-EGHi7FYzwoifg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

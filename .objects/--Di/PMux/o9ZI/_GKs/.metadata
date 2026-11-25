@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Search-Broker",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "_GKsvkii20SWp7yFtXm1JQ",
+  "Reference": "Bsh3ZzKwikqtk3xk8Kxw-w/_GKsvkii20SWp7yFtXm1JQ",
+  "ParentRef": "Bsh3ZzKwikqtk3xk8Kxw-w/o9ZI7ZsnzUuJq_my5eFWMw",
+  "Created": "2026-11-17T07:30:17.3767595Z",
+  "Updated": "2026-11-17T07:30:40.6570775Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
